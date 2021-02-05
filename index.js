@@ -8,9 +8,9 @@ const ejslayouts = require('express-ejs-layouts')
 // $3 Middleware
 app.set('view engine', 'ejs')
 app.use(ejslayouts)
-app.use(() => {
-    console.log('Hello there...')
-})
+// app.use(() => {
+//     console.log('Hello there...')
+// })
 app.use(express.static(__dirname+'/public'));
 
 
